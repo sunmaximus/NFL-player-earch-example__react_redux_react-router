@@ -5,7 +5,11 @@ import './searchbox.scss';
 class SearchBox extends Component {
   render() {
     return (
-      <div>Test</div>
+      <input
+        className='searchbox__input'
+        onChange={(event) => console.log(event.target.value) }
+        placeholder={'search player...'}
+      />
     );
   }
 }

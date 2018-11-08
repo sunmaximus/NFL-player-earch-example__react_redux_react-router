@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux'
 
+import playerReducer from '../module/getPlayers';
+
 const rootReducer = combineReducers({
-  test: () => 'Hello',
+  player: playerReducer,
 });
   
 export default rootReducer;

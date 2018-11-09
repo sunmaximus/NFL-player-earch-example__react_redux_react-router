@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import _ from 'lodash';
 
-import { getAvailablePlayers } from '../Home/module/getPlayers';
+import { getAvailablePlayers } from '../share/module/getPlayers';
 import Loader from '../share/component/Loader';
 
 import './player.scss';

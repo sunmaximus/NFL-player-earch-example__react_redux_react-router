@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getAvailablePlayers } from './module/getPlayers';
+import { getAvailablePlayers } from '../share/module/getPlayers';
 
 import SearchBox from './components/SearchBox';
 import Loader from '../share/component/Loader';
 import PlayerTable from './components/PlayerTable';
 
 import './home.scss';
-class App extends Component {
+class Home extends Component {
   state = {
     playerName: ''
   }
@@ -67,4 +67,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

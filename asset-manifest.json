@@ -1,13 +1,13 @@
 {
-  "main.css": "/sport-search/static/css/main.c49134f7.chunk.css",
-  "main.js": "/sport-search/static/js/main.827a2df6.chunk.js",
-  "main.js.map": "/sport-search/static/js/main.827a2df6.chunk.js.map",
-  "static/js/1.62cbe993.chunk.js": "/sport-search/static/js/1.62cbe993.chunk.js",
-  "static/js/1.62cbe993.chunk.js.map": "/sport-search/static/js/1.62cbe993.chunk.js.map",
-  "runtime~main.js": "/sport-search/static/js/runtime~main.b3581732.js",
-  "runtime~main.js.map": "/sport-search/static/js/runtime~main.b3581732.js.map",
-  "static/css/main.c49134f7.chunk.css.map": "/sport-search/static/css/main.c49134f7.chunk.css.map",
-  "index.html": "/sport-search/index.html",
-  "precache-manifest.2a0a45452baf147f6c5f9830307e3db0.js": "/sport-search/precache-manifest.2a0a45452baf147f6c5f9830307e3db0.js",
-  "service-worker.js": "/sport-search/service-worker.js"
+  "main.css": "/NFL-player-earch-example__react_redux_react-router/static/css/main.c49134f7.chunk.css",
+  "main.js": "/NFL-player-earch-example__react_redux_react-router/static/js/main.4aac58c4.chunk.js",
+  "main.js.map": "/NFL-player-earch-example__react_redux_react-router/static/js/main.4aac58c4.chunk.js.map",
+  "static/js/1.62cbe993.chunk.js": "/NFL-player-earch-example__react_redux_react-router/static/js/1.62cbe993.chunk.js",
+  "static/js/1.62cbe993.chunk.js.map": "/NFL-player-earch-example__react_redux_react-router/static/js/1.62cbe993.chunk.js.map",
+  "runtime~main.js": "/NFL-player-earch-example__react_redux_react-router/static/js/runtime~main.b3b8b7d6.js",
+  "runtime~main.js.map": "/NFL-player-earch-example__react_redux_react-router/static/js/runtime~main.b3b8b7d6.js.map",
+  "static/css/main.c49134f7.chunk.css.map": "/NFL-player-earch-example__react_redux_react-router/static/css/main.c49134f7.chunk.css.map",
+  "index.html": "/NFL-player-earch-example__react_redux_react-router/index.html",
+  "precache-manifest.f192a8434114ce72af85f926ec233c94.js": "/NFL-player-earch-example__react_redux_react-router/precache-manifest.f192a8434114ce72af85f926ec233c94.js",
+  "service-worker.js": "/NFL-player-earch-example__react_redux_react-router/service-worker.js"
 }

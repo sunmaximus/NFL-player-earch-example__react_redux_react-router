@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sport-search/precache-manifest.2a0a45452baf147f6c5f9830307e3db0.js"
+  "/NFL-player-earch-example__react_redux_react-router/precache-manifest.f192a8434114ce72af85f926ec233c94.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sport-search/index.html", {
+workbox.routing.registerNavigationRoute("/NFL-player-earch-example__react_redux_react-router/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

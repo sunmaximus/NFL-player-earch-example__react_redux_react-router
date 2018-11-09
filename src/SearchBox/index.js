@@ -18,7 +18,6 @@ class SearchBox extends Component {
 
   render() {
     const { onSearch } = this.props;
-    console.log(this.props.results)
     return (
       <div className='searchbox__container'>
         <input

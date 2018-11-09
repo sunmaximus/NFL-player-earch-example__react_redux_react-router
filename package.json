@@ -1,8 +1,8 @@
 {
-  "name": "sport-search",
+  "name": "NFL-player-earch-example__react_redux_react-router",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sunmaximus.github.io/sport-search",
+  "homepage": "https://sunmaximus.github.io/NFL-player-earch-example__react_redux_react-router",
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.11",

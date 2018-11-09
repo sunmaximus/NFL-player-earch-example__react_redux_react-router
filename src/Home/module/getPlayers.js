@@ -20,6 +20,16 @@ const initialState = {
   loading: false,
   error: false,
   results: [],
+  lookupResults: {}
+}
+
+const indexResults = (players) => {
+  const newState = {};
+  players.forEach(player => {
+    newState[player.PlayerID] = player;
+  });
+
+  return newState;
 }
 
 export default function playerReducer(state = initialState, action) {
@@ -27,7 +37,7 @@ export default function playerReducer(state = initialState, action) {
     case GET_PLAYERS:
       return { ...state, loading: true, error: false }
     case GET_PLAYERS_RECEIVED:
-      return { ...state, loading: false, results: action.players }
+      return { ...state, loading: false, results: action.players, lookupResults: indexResults(action.players) }
     case GET_PLAYERS_ERROR:
       return { ...state, loading: false, error: true }; 
     default:

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 import './searchbox.scss';
 
@@ -6,12 +7,13 @@ class SearchBox extends Component {
   renderResults() {
     return this.props.results && this.props.results.slice(0, 10).map(
       player => (
-        <div 
+        <Link 
           key={player.PlayerID}
           className='searchbox__results-content'
+          to={`/player/${player.PlayerID}`}
         >
           {`${player.FirstName} ${player.LastName}`}
-        </div>
+        </Link>
       )
     )
   }

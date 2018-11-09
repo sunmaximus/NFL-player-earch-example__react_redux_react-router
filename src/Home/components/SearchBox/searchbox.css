@@ -41,6 +41,8 @@
 
 .searchbox__results-content {
   padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  cursor: pointer;
   font-size: 20px;
   display: flex;
   flex-direction: row;
@@ -49,4 +51,5 @@
 
 .searchbox__results-content:hover {
   background: lightgrey;
+  text-decoration: none;
 }
